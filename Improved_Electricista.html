@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,8 +8,6 @@
     <title>Servicios Eléctricos - Sergio Rivas Melo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-    
-    
         body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
@@ -26,25 +23,18 @@
             margin: 0;
             font-size: 2.5rem;
         }
-        .services {
+        .header p {
+            font-size: 1.2rem;
+        }
+        .services, .about, .contact-section {
             padding: 40px;
         }
-        .services h2 {
+        .services h2, .about h2, .contact-section h2 {
             text-align: center;
             margin-bottom: 40px;
         }
         .service-item {
             margin-bottom: 30px;
-        }
-        .contact {
-            background-color: #007bff;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .contact p {
-            font-size: 1.2rem;
-            margin: 10px 0;
         }
         .gallery img {
             width: 100%;
@@ -52,10 +42,24 @@
             margin-bottom: 20px;
             border-radius: 8px;
         }
+        .contact-section {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+        .contact-section p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        .contact-section a {
+            color: white;
+            text-decoration: none;
+        }
         .footer {
             background-color: #343a40;
             color: white;
-            padding: 10px;
+            padding: 20px;
             text-align: center;
         }
     </style>
@@ -67,6 +71,13 @@
         <h1>Servicios Eléctricos a Domicilio</h1>
         <p>Por Sergio Rivas Melo - Electricista Certificado</p>
     </div>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>Sobre Nosotros</h2>
+        <p>En **Servicios Eléctricos Sergio Rivas Melo**, contamos con más de 10 años de experiencia ofreciendo soluciones eléctricas confiables y seguras para hogares y empresas. Nos especializamos en la instalación, mantenimiento y reparación de sistemas eléctricos, cumpliendo con todas las normativas vigentes y garantizando la máxima seguridad en cada proyecto.</p>
+        <p>Nuestros técnicos están certificados por la SEC (Superintendencia de Electricidad y Combustibles), lo que asegura un trabajo de calidad, rápido y eficiente. Disponemos de atención 24/7 para emergencias eléctricas, asegurando que puedas contar con nosotros en cualquier momento.</p>
+    </section>
 
     <!-- Service Section -->
     <section class="services">
@@ -90,6 +101,7 @@
     <!-- Gallery Section -->
     <section class="gallery">
         <div class="container">
+            <h2>Nuestros Proyectos</h2>
             <div class="row">
                 <div class="col-md-6">
                     <img src="./images/image1.jpeg" alt="Imagen Servicio 1">
@@ -108,10 +120,12 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact">
-        <h2>Contacta con Nosotros</h2>
+    <section class="contact-section">
+        <h2>Contáctanos</h2>
+        <p>¿Necesitas asistencia eléctrica urgente o deseas una cotización? Llámanos o envíanos un mensaje a través de WhatsApp.</p>
         <p>Teléfono: +56933631713</p>
-        <p>Email: Bamsolucioneselectricas@gmail.com</p>
+        <p>Email: <a href="mailto:Bamsolucioneselectricas@gmail.com">Bamsolucioneselectricas@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/56933631713" target="_blank">Haz clic aquí para contactarnos por WhatsApp</a></p>
     </section>
 
     <!-- Footer -->
@@ -121,3 +135,4 @@
 
 </body>
 </html>
+
